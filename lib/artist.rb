@@ -29,14 +29,17 @@ class Artist
     if found_artist
       found_artist
     else
-      Artist.new(name)
+      new_artist = Artist.new(name)
     end
   end
+
 
   def print_songs
     @songs.each do |song|
       puts song.name
     end
   end
+
+
 
 end
