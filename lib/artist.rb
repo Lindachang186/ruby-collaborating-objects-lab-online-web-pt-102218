@@ -31,7 +31,6 @@ class Artist
     else
       new_artist = self.new(name)
     end
-    binding.pry
   end
 
 
