@@ -19,7 +19,7 @@ class Song
    new_song.artist_name = artist
 
    #song.artist = filename.split(" - ")[0]
-   song
+   new_song
  end
 
 end
