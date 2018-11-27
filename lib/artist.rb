@@ -17,7 +17,6 @@ class Artist
 
   def add_song(song)
     @songs << song
-    binding.pry 
   end
 
   def save
@@ -32,6 +31,7 @@ class Artist
     else
       new_artist = Artist.new(name)
     end
+    binding.pry
   end
 
 
