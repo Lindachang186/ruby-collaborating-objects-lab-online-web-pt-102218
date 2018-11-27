@@ -27,7 +27,7 @@ class Artist
     found_artist = self.all.find{|artist| artist.name == name}
 binding.pry
     if found_artist
-      found_artist
+      found_artist.name
     else
       new_artist = self.new(name)
     end
